@@ -1,0 +1,46 @@
+name: untitled
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  device_preview:
+  flutter_svg: 2.0.4
+  flutter_staggered_grid_view: ^0.6.2
+  freezed_annotation:
+
+  cupertino_icons: 1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  freezed: 2.3.2
+  json_serializable: 6.6.1
+  build_runner:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - mock/topics/
+  fonts:
+    - family: HelveticaNeue
+      fonts:
+        - asset: assets/fonts/HelveticaNeue-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/HelveticaNeue-Light.ttf
+          weight: 300
+        - asset: assets/fonts/HelveticaNeue-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/HelveticaNeue-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/HelveticaNeue-Black.ttf
+          weight: 900
